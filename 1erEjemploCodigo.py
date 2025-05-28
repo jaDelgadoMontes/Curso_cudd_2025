@@ -1,4 +1,4 @@
-# mini bot
+# mini bot 
 import streamlit as st
 
 #st.set_page_config(page_title="Ejemplo Chat", layout="centered")
