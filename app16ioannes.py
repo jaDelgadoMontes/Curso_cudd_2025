@@ -18,6 +18,7 @@ with st.chat_message("user", avatar = "🦖"):
 # Generate a response using the OpenAI API.
 contexto = """
 La asignatura es impartida por M.E. Juan Armando DelgadoMontes. 
+Su teléfono es 614 2730080.
 En la asigantura de Bioestadística se incriben estudiantes de tercer semestre de la Licenciatura en Nutrición. "
 """
 promptFinal = contexto + prompt
