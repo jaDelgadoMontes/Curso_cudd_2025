@@ -16,3 +16,11 @@ if user_input:
     # Mostrar una respuesta simple del asistente
     st.chat_message("assistant").write(f"{user_input} <- eso dijiste")
 
+def invertir_texto_reversed(texto):
+    """Invierte una cadena de texto utilizando reversed() y join()."""
+    return "".join(reversed(texto))
+
+# texto = "hola mundo"
+texto_invertido = invertir_texto_reversed(user_input)
+print(texto_invertido)  # Salida: odnum aloh
+
