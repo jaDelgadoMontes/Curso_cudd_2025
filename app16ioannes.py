@@ -12,8 +12,8 @@ prompt = st.chat_input("Ingresa tu consulta")
 if prompt==None:
    st.stop()
 
-#with st.chat_message("user"):
-#   st.markdown(prompt)
+with st.chat_message("user"):
+   st.markdown(prompt)
 
 # Generate a response using the OpenAI API.
 
