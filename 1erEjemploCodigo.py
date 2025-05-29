@@ -14,7 +14,7 @@ if user_input:
     st.chat_message("user").write(user_input)
 
     # Mostrar una respuesta simple del asistente
-    st.chat_message("assistant").write(f"{user_input} <- eso dijiste")
+    st.chat_message("ai").write(f"{user_input} <- eso dijiste")
 
 def invertir_texto_reversed(texto):
     """Invierte una cadena de texto utilizando reversed() y join()."""
