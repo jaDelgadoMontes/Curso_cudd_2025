@@ -3,8 +3,8 @@ from openai import OpenAI
 
 # Show title and description.
 st.title("💬 Chatbot")
-st.write("1LN3 - Bioestadística")
-st.write("Generar tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
+st.title("1LN3 - Bioestadística")
+st.title("Generar tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
