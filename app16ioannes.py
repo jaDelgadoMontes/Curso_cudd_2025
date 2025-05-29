@@ -16,7 +16,10 @@ with st.chat_message("user", avatar = "🦖"):
    st.markdown(prompt)
 
 # Generate a response using the OpenAI API.
-contexto = "La asignatura es impartida por M.E. Juan Armando DelgadoMontes. En la asigantura de Bioestadística se incriben estudiantes de tercer semestre de la Licenciatura en Nutrición. "
+contexto = """
+La asignatura es impartida por M.E. Juan Armando DelgadoMontes. 
+En la asigantura de Bioestadística se incriben estudiantes de tercer semestre de la Licenciatura en Nutrición. "
+"""
 promptFinal = contexto + prompt
 stream = client.chat.completions.create(
         model="gpt-4o-mini",  
