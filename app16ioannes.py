@@ -12,7 +12,6 @@ st.sidebar.write("App desarrollada por M.E. JuanArmando DelgadoMontes")
 st.sidebar.write("Con la finalidad de dar un apoyo en la asignatura de Bioestadística, para el Tema: Método Estadístico")
 
 st.footer("M.E. JuanArmando DelgadoMontes © 2025.  ",
-          # "https://ejemplo.com/imagen.png",
           "https://github.com/jaDelgadoMontes/Curso_cudd_2025/blob/main/%2Buach.png",
           "Circuito Vial Universitario Campus 2",
            "[Más información](https://www.uach.mx)",
