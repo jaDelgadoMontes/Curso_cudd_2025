@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("-- 💬 Chatbot --\n Bioestadística es :blue[cool] :sunglasses:")
+st.title("-- 💬 Chatbot -- Bioestadística es :blue[cool] :sunglasses:")
 st.text("Genera tu prompt, para que chatGPT\nte ayude a profundizar sobre el Método Estadístico")
 # st.title("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 
