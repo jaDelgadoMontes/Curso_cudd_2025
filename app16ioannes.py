@@ -7,6 +7,16 @@ st.title("Bioestadística es :blue[cool] :sunglasses:")
 st.subheader("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 # st.text("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 # st.title("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
+st.sidebar.tiitle("UACH-FEN")
+st.sidebar.write("App desarrollada por M.E. JuanArmando DelgadoMontes")
+st.sidebar.write("Con la finalidad de dar un apoyo en la asignaura de Bioestadística, para el Tema: Método Estadístico")
+
+st.footer("M.E. JuanArmando DelgadoMontes © 2025.  ",
+          # "https://ejemplo.com/imagen.png",
+          "https://" 
+          "Este es un ejemplo de pie de página.",
+           "[Más información](https://ejemplo.com)",
+           "HTML <br>")
 
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
