@@ -4,7 +4,8 @@ from openai import OpenAI
 # Show title and description.
 st.title("-- 💬 Chatbot -- ")
 st.title("Bioestadística es :blue[cool] :sunglasses:")
-st.text("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
+st.subheader("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
+# st.text("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 # st.title("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 
 openai_api_key = st.secrets["api_key"] 
