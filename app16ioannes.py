@@ -10,7 +10,7 @@ st.subheader("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el
 st.sidebar.title("UACH-FEN")
 st.sidebar.write("App desarrollada por M.E. JuanArmando DelgadoMontes")
 st.sidebar.write("Con la finalidad de dar un apoyo en la asignatura de Bioestadística, para el Tema: Método Estadístico")
-st.sidebar.imagen("+uach.png")
+st.sidebar.image("+uach.png")
 # st.footer("M.E. JuanArmando DelgadoMontes © 2025.  ",
   #        "https://github.com/jaDelgadoMontes/Curso_cudd_2025/blob/main/%2Buach.png",
   #        "Circuito Vial Universitario Campus 2",
