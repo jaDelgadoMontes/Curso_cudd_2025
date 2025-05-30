@@ -7,7 +7,7 @@ st.title("Bioestadística es :blue[cool] :sunglasses:")
 st.subheader("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 # st.text("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
 # st.title("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el Método Estadístico")
-st.sidebar.tiitle("UACH-FEN")
+st.sidebar.title("UACH-FEN")
 st.sidebar.write("App desarrollada por M.E. JuanArmando DelgadoMontes")
 st.sidebar.write("Con la finalidad de dar un apoyo en la asignatura de Bioestadística, para el Tema: Método Estadístico")
 
