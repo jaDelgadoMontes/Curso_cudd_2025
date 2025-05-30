@@ -10,12 +10,12 @@ st.subheader("Genera tu prompt, para que chatGPT te ayude a profundizar sobre el
 st.sidebar.title("UACH-FEN")
 st.sidebar.write("App desarrollada por M.E. JuanArmando DelgadoMontes")
 st.sidebar.write("Con la finalidad de dar un apoyo en la asignatura de Bioestadística, para el Tema: Método Estadístico")
-
-st.footer("M.E. JuanArmando DelgadoMontes © 2025.  ",
-          "https://github.com/jaDelgadoMontes/Curso_cudd_2025/blob/main/%2Buach.png",
-          "Circuito Vial Universitario Campus 2",
-           "[Más información](https://www.uach.mx)",
-           "HTML <br>")
+st.sidebar.imagen("+uach.png")
+# st.footer("M.E. JuanArmando DelgadoMontes © 2025.  ",
+  #        "https://github.com/jaDelgadoMontes/Curso_cudd_2025/blob/main/%2Buach.png",
+  #        "Circuito Vial Universitario Campus 2",
+  #         "[Más información](https://www.uach.mx)",
+  #         "HTML <br>")
 
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
